@@ -3,4 +3,4 @@
 echo "/backups" > /var/urbackup/backupfolder
 chown urbackup:urbackup /backups
 chown urbackup:urbackup /var/urbackup
-exec urbackupsrv "$@"
+exec urbackupsrv run
